@@ -12,6 +12,10 @@ public class Non_StaticMethods
 	{
 		System.out.println("Static method is Running");
 	}
+	public static void cat()
+	{
+		System.out.println("Cat static method is running");
+	}
 	
 	public static void main(String []args)
 	{
@@ -20,6 +24,7 @@ public class Non_StaticMethods
 		Non_StaticMethods obj=new Non_StaticMethods();
 		obj.m1();
 		dog();
+		cat();
 		
 	}
 	
