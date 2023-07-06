@@ -8,13 +8,13 @@ public class Non_StaticMethods
 		System.out.println("Non Static Method is Running");
 	}
 	
-	public static void dog()
+	public  void dog()
 	{
-		System.out.println("Static method is Running");
+		System.out.println("dog method is Running");
 	}
-	public static void cat()
+	public  void cat()
 	{
-		System.out.println("Cat static method is running");
+		System.out.println("Cat  method is running");
 	}
 	
 	public static void main(String []args)
@@ -23,8 +23,8 @@ public class Non_StaticMethods
 		
 		Non_StaticMethods obj=new Non_StaticMethods();
 		obj.m1();
-		dog();
-		cat();
+		obj.dog();
+		obj.cat();
 		
 	}
 	
